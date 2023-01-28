@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html,
@@ -23,6 +24,12 @@ h1 {
     --animate-duration: 2s;
 }
 
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
 
 /* Header and Nav */
 
@@ -115,17 +122,19 @@ main p {
     padding: 50px 500px;
 }
 
+/* Main */
+
 .about-me {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	gap: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
     padding: 20px 20px;
 }
 
-.about-me h1{
+.about-me h1 {
     font-size: 1.2rem;
 }
 
@@ -136,6 +145,39 @@ main p {
     border-radius: 100%;
 }
 
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Servicios */
+
+.servicios {
+    background: rgb(247, 247, 231);
+}
+
+.srv-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 20px;
+}
+
+.srv-list img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    opacity: 50%;
+    -webkit-filter: blur(2px);
+}
+
+.centered h4{
+    
+}
 
 
 /* Trabajos */
@@ -214,11 +256,19 @@ footer a {
 }
 
 
+
+
 /* MEDIA QUERIES / Mobile*/
 
 /* Index */
 
 @media screen and (max-width: 680px) {
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+    }
 
     .main-header {
         width: 100%;
@@ -228,7 +278,7 @@ footer a {
         width: 100%;
         font-size: 2vw;
     }
-    
+
     .main-nav li {
         font-size: 8px;
     }
@@ -259,15 +309,32 @@ footer a {
         height: 100px;
     }
 
-    .about-me h1{
+    .about-me h1 {
         max-width: 100%;
         font-size: 12px;
         font-weight: 10;
         font-style: oblique;
         padding: 5px;
-
-
     }
+
+    /* Servicios */
+
+    .srv-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .srv-list img {
+        height: 150px;
+        width: 150px;
+    }
+
+
+    /* Footer */
 
     footer {
         text-align: center;
@@ -276,10 +343,10 @@ footer a {
         color: #F9F9ED;
         font-size: 8px
     }
-    
+
     footer a {
         text-decoration: none;
-    
+
     }
 
 
@@ -303,7 +370,34 @@ footer a {
 
 /* MEDIA QUERIES / iPad and tablets */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .servicios {
+        padding: 20px 10px;
+    }
+
+    /* Servicios */
+
+    .srv-list {
+        display: flex;
+        /* flex-direction:  */
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .srv-list img {
+        height: 200px;
+        width: 200px;
+    }
+
     /* Trabajo */
     .gallery-tr {
         display: grid;
