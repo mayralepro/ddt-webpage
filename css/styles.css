@@ -25,11 +25,12 @@ h1 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
 }
+
 
 /* Header and Nav */
 
@@ -165,6 +166,7 @@ h3 {
     align-items: center;
     gap: 50px;
     padding: 20px 20px;
+    position: relative;
 }
 
 .srv-list img {
@@ -175,9 +177,20 @@ h3 {
     -webkit-filter: blur(2px);
 }
 
-.centered h4{
-    
+.centered {
+    display: block;
+    text-align: center;
+    position: relative;
 }
+
+.centered h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
 
 
 /* Trabajos */
