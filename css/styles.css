@@ -149,10 +149,12 @@ main p {
     justify-items: center;
     /* padding-left: 150px;
     padding-right: 150px; */
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 100px;
     grid-template-areas:
-        "foto1 foto2 foto3 foto4"
-        "foto5 foto6 foto7 foto8";
+        "foto1tr foto2tr foto3tr foto4tr"
+        "foto5tr foto6tr foto7tr foto8tr";
 }
 
 
@@ -212,11 +214,11 @@ footer a {
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES / Mobile*/
 
 /* Index */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 680px) {
 
     .main-header {
         width: 100%;
@@ -239,6 +241,12 @@ footer a {
         height: auto;
     }
 
+    .about-me {
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+
 
     .about-me h1 {
         width: 100%;
@@ -247,8 +255,8 @@ footer a {
     }
 
     .foto-manos img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     .about-me h1{
@@ -274,4 +282,40 @@ footer a {
     
     }
 
+
+    /* Trabajos */
+
+    .gallery-tr {
+        display: grid;
+        gap: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-template-areas:
+            "foto1tr foto2tr"
+            "foto3tr foto4tr"
+            "foto5tr foto6tr"
+            "foto7tr foto8tr";
+    }
+
+}
+
+/* MEDIA QUERIES / iPad and tablets */
+
+@media screen and (max-width: 1024px) {
+    /* Trabajo */
+    .gallery-tr {
+        display: grid;
+        gap: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-template-areas:
+            "foto1tr foto2tr"
+            "foto3tr foto4tr"
+            "foto5tr foto6tr"
+            "foto7tr foto8tr";
+    }
 }
