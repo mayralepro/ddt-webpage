@@ -277,10 +277,15 @@ footer a {
 
 @media screen and (max-width: 680px) {
 
-    h3 {
-        font-size: 18px;
+    .servicios h3 {
+        font-size: 20px;
         text-align: center;
         padding-top: 20px;
+    }
+
+    .centered h4 {
+        font-size: 14px;
+        font-weight: lighter;
     }
 
     .main-header {
