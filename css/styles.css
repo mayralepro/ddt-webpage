@@ -159,6 +159,18 @@ h3 {
     background: rgb(247, 247, 231);
 }
 
+.srv-list a {
+    color: inherit;
+}
+
+.srv-list h4 {
+    background: #F9F9ED;
+    padding: 18px;
+    border-radius: 20px;
+    border: double;
+    
+}
+
 .srv-list {
     display: flex;
     flex-direction: row;
