@@ -43,6 +43,8 @@ h3 {
 
 .nav {
     flex-direction: row-reverse;
+    display: flex;
+    
 }
 
 #navbarTogglerDemo02 {
@@ -57,6 +59,8 @@ h3 {
 .nav-pills .nav-link.active {
     background-color: white;
 }
+
+
 
 
 /* Main ALL */
@@ -297,6 +301,12 @@ footer a {
         padding-top: 20px;
     }
 
+    .nav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: flex-end;
+    }
+
     .centered h4 {
         font-size: 14px;
         font-weight: lighter;
@@ -331,8 +341,7 @@ footer a {
 
     .nav-item {
         font-size: 11px;
-        padding-top: 14px;
-        
+        padding-top: 14px;     
     }
 
     /* Servicios */
@@ -423,6 +432,12 @@ footer a {
         font-size: 18px;
         text-align: center;
         padding-top: 20px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: flex-end;
     }
 
     .servicios {
