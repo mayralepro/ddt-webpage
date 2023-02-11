@@ -329,6 +329,12 @@ footer a {
         margin-top: 20px;
     }
 
+    .nav-item {
+        font-size: 11px;
+        padding-top: 14px;
+        
+    }
+
     /* Servicios */
 
     .srv-list {
