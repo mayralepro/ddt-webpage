@@ -322,10 +322,11 @@ footer a {
 
     .about-me h1 {
         max-width: 100%;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 10;
         font-style: oblique;
         padding: 5px;
+        margin-top: 20px;
     }
 
     /* Servicios */
