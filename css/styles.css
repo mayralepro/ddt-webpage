@@ -270,23 +270,6 @@ form {
 }
 
 
-/* Footer */
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #7D84B2;
-    color: #F9F9ED;
-    font-size: 14px
-}
-
-footer a {
-    text-decoration: none;
-
-}
-
-
-
 
 /* MEDIA QUERIES / Mobile*/
 
@@ -358,22 +341,6 @@ footer a {
     .srv-list img {
         height: 150px;
         width: 150px;
-    }
-
-
-    /* Footer */
-
-    footer {
-        text-align: center;
-        padding: 5px;
-        background-color: #7D84B2;
-        color: #F9F9ED;
-        font-size: 8px
-    }
-
-    footer a {
-        text-decoration: none;
-
     }
 
 
