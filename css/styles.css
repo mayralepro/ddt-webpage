@@ -48,6 +48,10 @@ footer {
     margin-top: auto;
 }
 
+main {
+    background-color: rgb(247, 247, 231);
+}
+
 
 /* Header and Nav */
 
@@ -55,7 +59,7 @@ footer {
 .nav {
     flex-direction: row-reverse;
     display: flex;
-    
+
 }
 
 #navbarTogglerDemo02 {
@@ -100,7 +104,7 @@ main p {
     gap: 50px;
     padding: 50px 50px;
     background-color: white;
-    
+
 }
 
 .about-me h1 {
@@ -275,6 +279,39 @@ form {
     transform: scale(1.1);
 }
 
+/* Patrones */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.gallery-pt {
+    display: grid;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-areas:
+        "foto1pt foto2pt foto3pt foto4pt";
+}
 
 
 /* MEDIA QUERIES / Mobile*/
@@ -283,7 +320,7 @@ form {
 
 @media screen and (max-width: 680px) {
 
-    
+
     .servicios h3 {
         font-size: 20px;
         text-align: center;
@@ -330,7 +367,7 @@ form {
 
     .nav-item {
         font-size: 11px;
-        padding-top: 14px;     
+        padding-top: 14px;
     }
 
     /* Servicios */
@@ -394,6 +431,25 @@ form {
         width: 150px;
         height: 150px;
     }
+
+    /* Patrones */
+
+    .gallery-pt {
+        display: grid;
+        gap: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-template-areas:
+            "foto1pt"
+            "foto2pt"
+            "foto3pt"
+            "foto4pt";
+    }
+    
+
 
 }
 
@@ -462,6 +518,20 @@ form {
             "foto3mn foto4mn";
     }
 
+    /* Patrones */
 
+    .gallery-pt {
+        display: grid;
+        gap: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-template-areas:
+            "foto1pt foto2pt"
+            "foto3pt foto4pt";
+    }
+    
 
 }
