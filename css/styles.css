@@ -49,7 +49,7 @@ footer {
 }
 
 main {
-    background-color: rgb(247, 247, 231);
+    background-color: rgb(247, 247, 231);;
 }
 
 
@@ -285,8 +285,20 @@ form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
+    padding: 10px;
+}
+
+.card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.pt-text {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Comfortaa';
     text-align: center;
-    font-family: arial;
 }
 
 .card button {
@@ -294,7 +306,7 @@ form {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #7D84B2;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -448,6 +460,7 @@ form {
             "foto3pt"
             "foto4pt";
     }
+
     
 
 
