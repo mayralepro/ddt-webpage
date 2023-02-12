@@ -447,18 +447,9 @@ form {
     /* Patrones */
 
     .gallery-pt {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         gap: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        grid-template-areas:
-            "foto1pt"
-            "foto2pt"
-            "foto3pt"
-            "foto4pt";
     }
 
     
@@ -533,18 +524,7 @@ form {
 
     /* Patrones */
 
-    .gallery-pt {
-        display: grid;
-        gap: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        grid-template-areas:
-            "foto1pt foto2pt"
-            "foto3pt foto4pt";
-    }
+ 
     
 
 }
