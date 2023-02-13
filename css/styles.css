@@ -9,7 +9,6 @@ html,
 body {
     font-family: 'Comfortaa', bold;
     color: black;
-    background: #fffff8;
 }
 
 h1 {
@@ -33,10 +32,10 @@ h3 {
     padding-bottom: 25px;
 }
 
-.body-bg {
+/* .body-bg {
     background-color: rgb(247, 247, 231);
     padding-bottom: 50px;
-}
+} */
 
 body {
     min-height: 100vh;
@@ -44,12 +43,14 @@ body {
     flex-direction: column;
 }
 
-footer {
-    margin-top: auto;
-}
+
 
 main {
-    background-color: rgb(247, 247, 231);;
+    background-color: rgb(247, 247, 231);
+}
+
+.body-bg {
+    background-color: rgb(247, 247, 231);
 }
 
 
@@ -233,7 +234,8 @@ h3 {
 
 form {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 135px;
+    font-family: 'Comfortaa';
 
 }
 
@@ -245,14 +247,14 @@ form {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 100px 100px;
+    gap: 50px 50px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 250px;
     justify-items: center;
-    padding-bottom: 100px;
     grid-template-areas:
-        "foto1mn foto2mn"
-        "foto3mn foto4mn";
+        "foto1mn foto2mn foto3mn foto4mn";
+        
 }
 
 
@@ -318,12 +320,13 @@ form {
     gap: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     grid-template-areas:
         "foto1pt foto2pt foto3pt foto4pt";
 }
+
 
 
 /* MEDIA QUERIES / Mobile*/
