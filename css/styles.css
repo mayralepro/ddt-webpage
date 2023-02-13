@@ -327,6 +327,23 @@ form {
         "foto1pt foto2pt foto3pt foto4pt";
 }
 
+/* Contacto */
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 14px 4px rgb(237, 237, 237);
+}
+
+textarea {
+    padding: 18px;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 14px 4px rgb(237, 237, 237);
+}
+
+
 
 
 /* MEDIA QUERIES / Mobile*/
@@ -362,7 +379,7 @@ form {
 
     .about-me h1 {
         width: 100%;
-        font-size: 10px;
+        font-size: 18px;
         padding: 0px;
     }
 
@@ -428,7 +445,7 @@ form {
     /* Miscelánea */
 
     .gallery-mn {
-        display: grid;
+        display: flex;
         gap: 50px;
         padding-left: 10px;
         padding-right: 10px;
@@ -466,7 +483,7 @@ form {
 
 
     h3 {
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
         padding-top: 20px;
     }
@@ -514,16 +531,19 @@ form {
 
     /* Miscelánea */
     .gallery-mn {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         gap: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        grid-template-areas:
-            "foto1mn foto2mn"
-            "foto3mn foto4mn";
+        
     }
+
+    .gallery-mn img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        height: 50%;
+        width: 50%;
+    }
+    
 
     /* Patrones */
 
