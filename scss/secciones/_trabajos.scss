@@ -1,0 +1,31 @@
+.gallery-tr {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px 100px;
+    justify-items: center;
+    /* padding-left: 150px;
+      padding-right: 150px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    grid-template-areas: "foto1tr foto2tr foto3tr foto4tr" "foto5tr foto6tr foto7tr foto8tr"; }
+  
+  .gallery-tr img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    column-gap: 5px; }
+  
+  .gallery-tr img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; }
+  
+  .gallery-tr img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }

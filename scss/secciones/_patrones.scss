@@ -1,0 +1,37 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding: 10px; }
+  
+  .card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%; }
+  
+  .pt-text {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Comfortaa';
+    text-align: center; }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: $blanco;
+    background-color: $morado;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px; }
+  
+  .gallery-pt {
+    display: grid;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-areas: "foto1pt foto2pt foto3pt foto4pt"; }

@@ -1,0 +1,22 @@
+.titulo-contacto {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 2.5rem; }
+  
+  form {
+    text-align: center;
+    padding-bottom: 135px;
+    font-family: $typo-principal; }
+  
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 14px 4px $gris; }
+  
+  textarea {
+    padding: 18px;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 14px 4px $gris; }

@@ -1,0 +1,46 @@
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px; }
+
+  .servicios {
+    background: $beige;
+    padding: 50px; }
+  
+  .srv-list a {
+    color: inherit; }
+  
+  .srv-list h4 {
+    background: $blanco;
+    padding: 18px;
+    border-radius: 20px;
+    border: double; }
+  
+  .srv-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 20px;
+    position: relative; }
+  
+  .srv-list img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    opacity: 50%;
+    -webkit-filter: blur(2px); }
+  
+  .centered {
+    display: block;
+    text-align: center;
+    position: relative; }
+  
+  .centered h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px; }
