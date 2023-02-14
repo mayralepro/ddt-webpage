@@ -17,124 +17,147 @@
 
 
 /* MEDIA QUERIES / Mobile*/
-/* Index */
+
 @media screen and (max-width: 680px) {
-  .servicios h3 {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px; }
-  .nav {
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: flex-end; }
-  .centered h4 {
-    font-size: 14px;
-    font-weight: lighter; }
-  .about-me {
-    flex-direction: column;
-    gap: 0px;
-    text-align: center; }
-  .about-me h1 {
-    width: 100%;
-    font-size: 18px;
-    padding: 0px; }
-  .foto-manos img {
-    width: 100px;
-    height: 100px; }
-  .about-me h1 {
-    max-width: 100%;
-    font-size: 18px;
-    font-weight: 10;
-    font-style: oblique;
-    padding: 5px;
-    margin-top: 20px; }
-  .nav-item {
-    font-size: 11px;
-    padding-top: 14px; }
-  /* Servicios */
-  .srv-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 25px; }
-  .srv-list img {
-    height: 150px;
-    width: 150px; }
-  /* Trabajos */
-  .gallery-tr {
-    display: grid;
-    gap: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    grid-template-areas: "foto1tr foto2tr" "foto3tr foto4tr" "foto5tr foto6tr" "foto7tr foto8tr"; }
-  .gallery-tr img {
-    width: 250px;
-    height: 250px;
-    width: 100%; }
-  /* Miscelánea */
-  .gallery-mn {
-    display: flex;
-    gap: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    grid-template-areas: "foto1mn" "foto2mn" "foto3mn" "foto4mn"; }
-  .gallery-mn img {
-    width: 150px;
-    height: 150px; }
-  /* Patrones */
-  .gallery-pt {
-    display: flex;
-    flex-direction: column;
-    gap: 50px; } }
+	.servicios {
+		h3 {
+			font-size: 22px;
+			text-align: center;
+			padding-top: 20px;
+		}
+	}
+	.nav {
+		display: flex;
+		flex-direction: column-reverse;
+		align-content: flex-end;
+	}
+	.centered {
+		h4 {
+			font-size: 14px;
+			font-weight: lighter;
+		}
+	}
+	.about-me {
+		flex-direction: column;
+		gap: 0px;
+		text-align: center;
+		h1 {
+			width: 100%;
+			padding: 0px;
+			max-width: 100%;
+			font-size: 20px;
+			font-weight: 10;
+			font-style: oblique;
+			padding: 5px;
+			margin-top: 20px;
+		}
+	}
+	.foto-manos {
+		img {
+			width: 150px;
+			height: 150px;
+		}
+	}
+	.nav-item {
+		font-size: 11px;
+		padding-top: 14px;
+	}
+	.srv-list {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+		font-weight: bolder;
+		img {
+			height: 150px;
+			width: 150px;
+		}
+	}
+	.gallery-tr {
+		display: grid;
+		gap: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		justify-items: center;
+		grid-template-areas: "foto1tr foto2tr" "foto3tr foto4tr" "foto5tr foto6tr" "foto7tr foto8tr";
+		img {
+			width: 250px;
+			height: 250px;
+			width: 100%;
+		}
+	}
+	.gallery-mn {
+		display: flex;
+		gap: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		justify-items: center;
+		grid-template-areas: "foto1mn" "foto2mn" "foto3mn" "foto4mn";
+		img {
+			width: 150px;
+			height: 150px;
+		}
+	}
+	.gallery-pt {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+}
+
 
 /* MEDIA QUERIES / iPad and tablets */
+
 @media screen and (max-width: 1080px) {
-  h3 {
-    font-size: 14px;
-    text-align: center;
-    padding-top: 20px; }
-  .nav {
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: flex-end; }
-  .servicios {
-    padding: 20px 10px; }
-  /* Servicios */
-  .srv-list {
-    display: flex;
-    /* flex-direction:  */
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 25px; }
-  .srv-list img {
-    height: 200px;
-    width: 200px; }
-  /* Trabajo */
-  .gallery-tr {
-    display: grid;
-    gap: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    grid-template-areas: "foto1tr foto2tr" "foto3tr foto4tr" "foto5tr foto6tr" "foto7tr foto8tr"; }
-  /* Miscelánea */
-  .gallery-mn {
-    display: flex;
-    flex-direction: column;
-    gap: 50px; }
-  .gallery-mn img {
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    height: 50%;
-    width: 50%; }
- }
+	
+	h3 {
+		font-size: 14px;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.nav {
+		display: flex;
+		flex-direction: column-reverse;
+		align-content: flex-end;
+	}
+	.servicios {
+		padding: 20px 10px;
+	}
+	.srv-list {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+		img {
+			height: 200px;
+			width: 200px;
+		}
+	}
+	.gallery-tr {
+		display: grid;
+		gap: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		grid-template-areas: "foto1tr foto2tr" "foto3tr foto4tr" "foto5tr foto6tr" "foto7tr foto8tr";
+	}
+	.gallery-mn {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+		img {
+			aspect-ratio: 1/1;
+			object-fit: cover;
+			height: 50%;
+			width: 50%;
+		}
+	}
+}

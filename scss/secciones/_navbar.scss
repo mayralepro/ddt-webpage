@@ -1,52 +1,50 @@
-// Header  //
- 
-html,
-body {
-  font-family: $typo-secundaria;
-  color: $negro; 
+
+html {
+	font-family: $typo-secundaria;
+	color: $negro;
 }
-
-h1 {
-  font-weight: 10;
-  font-family: $typo-secundaria; }
-
-.animate__animated.animate__fadeIn {
-  --animate-duration: 3s; }
-
-.animate__animated.animate__fadeInLeft {
-  --animate-duration: 2s; }
-
-h3 {
-  font-size: 35px;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 25px; }
-
-
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column; }
-
+	font-family: $typo-secundaria;
+	color: $negro;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	font-weight: 10;
+	font-family: $typo-secundaria;
+}
+.animate__animated.animate__fadeIn {
+	--animate-duration: 3s;
+}
+.animate__animated.animate__fadeInLeft {
+	--animate-duration: 2s;
+}
+h3 {
+	font-size: 35px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
 main {
-  background-color: $beige; }
-
+	background-color: $beige;
+}
 .body-bg {
-  background-color: $beige; }
-
-
-  // Navbar //
-
+	background-color: $beige;
+}
 .nav {
-    flex-direction: row-reverse;
-    display: flex; }
-  
-  #navbarTogglerDemo02 {
-    justify-content: flex-end; }
-  
-  .navbar-full {
-    background-color: $morado;
-    font-family: $typo-principal; }
-  
-  .nav-pills .nav-link.active {
-    background-color: $blanco; }
+	flex-direction: row-reverse;
+	display: flex;
+}
+#navbarTogglerDemo02 {
+	justify-content: flex-end;
+}
+.navbar-full {
+	background-color: $morado;
+	font-family: $typo-principal;
+}
+.nav-pills {
+	.nav-link.active {
+		background-color: $blanco;
+	}
+}
