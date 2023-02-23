@@ -215,8 +215,9 @@ h3 {
 .titulo-contacto {
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 50px;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+  font-family: "Comfortaa", bold; }
 
 form {
   text-align: center;
